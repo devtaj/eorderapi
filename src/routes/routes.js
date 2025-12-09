@@ -16,8 +16,9 @@ router.use(bodyParser.json());
 
 
 // ------------------------ HOME ------------------------
+
 router.get("/", (req, res) => {
-    res.json("This is the Homepage!");
+    res.json("This is the Dashboard!");
 });
 
 
